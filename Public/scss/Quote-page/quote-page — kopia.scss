@@ -1,0 +1,165 @@
+#quote-page{
+    width: 100%;
+    height: 105vh;
+    background-color: $second-color;
+    color: $main-color;
+    .quote-page__box, .quote-page__box--off{
+            padding-top: 15vh;
+            text-align: center;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+            position: absolute;
+            transition: 1s;
+        .quote-page__line{
+            width: 20%;
+            height: 10px;
+            background-color: $main-color;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        h1{
+            font-size: 5.8vh;
+            width: 70%;
+            margin-left: 15%;
+        }
+        p{
+            font-size: 2.5vh;
+        }  
+    }
+    .quote-page__box{
+            opacity: 1;
+            text-align: center;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            position: absolute;
+            transition: 1s;
+            transform: scaleX(1);
+            transform-origin: left ;
+    }
+    .quote-page__box--off{
+        transform: scaleX(0);
+        opacity: 0;
+        transform-origin:left ;
+    }
+    /*.quote-page{
+
+        ol{
+            top: 0;
+            display: flex;
+            list-style: none;
+            height: 20vh;
+            width: 100%;
+        }
+        li{
+            width: 15%;
+            margin-right: 4%;
+            height: 100%;
+            transition: 0.2s;
+            background-size: 100%;
+            box-shadow: 0px 0px 10px;
+            &:hover{
+                transition: 0.2s;
+                transform: translateY(-10%);
+            }
+            &:hover .quote-page__sylph{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__sylph{
+                width: 100%;
+                height: 100%;
+                background-image: url("../foto/sylph.jpg");
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+            &:hover .quote-page__rujierd{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__rujierd{
+                background-image: url("../foto/ruijerd.jpg");
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+            &:hover .quote-page__rudeus{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__rudeus{
+                background-image: url("../foto/rudy.jpg");
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+            &:hover .quote-page__eris{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__eris{
+                background-image: url("../foto/eris.jpg");
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+            &:hover .quote-page__orsted{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__orsted{
+                background-image: url("../foto/orsted.jpg");
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+            &:hover .quote-page__roxy{
+                opacity: 0.5;
+                transition: 0.75s;
+            }
+            .quote-page__roxy{
+                background-image: url("../foto/roxy.jpg");
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: 0.75s;
+            }
+        }
+        .quote-page__select-title{
+            font-size: 4vh;
+        } 
+        #quote-page__character-name, #quote-page__character-select{
+            width: 60%;
+            height: 10vh;
+            margin-left: auto;
+            margin-right: auto;
+            color: $main-color;
+            font-size: 4vh;
+            margin-top: 10vh;
+        } 
+        #quote-page__character-select{
+            margin-top: 0;
+        }
+        #quote-page__quote-text{
+            width: 60%;
+            height: 30vh;
+            margin-left: auto;
+            margin-right: auto;
+            color: $main-color;
+            font-size: 2.5vh;
+            margin-top: 5vh;
+        }
+    }
+    */
+}

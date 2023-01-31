@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mushoku Tensei Cytaty</title>
+        <link rel="icon" href="../../Public/foto/icon.png">
+        <link rel="stylesheet" href="../../Public/dist/main.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="header-logo"><a href="../../index.html">MUSHOKU TENSEI</a></h1>
+            <div class="header-menu">
+                <ol >
+                    <li><a class="header-menu__btn" href="#">Uniwersum</a></li>
+                    <li><a class="header-menu__btn"href="#">Postacie</a></li>
+                    <li><a class="header-menu__btn" href="#">Cytaty</a></li>
+                    <li><a class="header-menu__btn" href="#">Light Novel</a></li>
+                    <li><a class="header-menu__btn" href="#">Odcinki Online</a></li>
+                </ol>
+            </div>
+        </header>
+        <section id="title-screen">
+            <h1 class="title-screen__title">Mushoku Tensei</h1>
+            <p>Przeczytaj zapadające w pamięć cytaty które docenili czytelnicy!</p>
+            <div class="title-screen__btn">
+                <a href="#quote-page">Czytaj więcej</a>
+            </div>
+        </section>
+        <section id="quote-page">
+            <div class="quote-page__box">
+                <div class="quote-page__line"></div>
+                <div class="quote-page">
+                    <p class="quote-page__select-title">Wybierz postać której chcesz przeczytać cytat</p>
+                    <h1 id="quote-page__character-select"></h1>
+                    <ol>
+                        <li><div class="quote-page__sylph" class="quote-page__box" onclick="quoteSylph()" onmouseover="quoteSylphName()" onmouseleave="quoteClear()"></div></li>
+                        <li><div class="quote-page__rujierd" class="quote-page__box" onclick="quoteRujierd()" onmouseover="quoteRujierdName()" onmouseleave="quoteClear()"></div></li>
+                        <li><div class="quote-page__rudeus" class="quote-page__box" onclick="quoteRudeus()" onmouseover="quoteRudeusName()" onmouseleave="quoteClear()"></div></li>
+                        <li><div class="quote-page__eris" class="quote-page__box" onclick="quoteEris()" onmouseover="quoteErisName()" onmouseleave="quoteClear()"></div></li>
+                        <li><div class="quote-page__orsted" class="quote-page__box" onclick="quoteOrsted()" onmouseover="quoteOrstedName()" onmouseleave="quoteClear()"></div></li>
+                        <li><div class="quote-page__roxy" class="quote-page__box" onclick="quoteRoxy()" onmouseover="quoteRoxyName()" onmouseleave="quoteClear()"></div></li>
+                    </ol>
+                    <h1 id="quote-page__character-name"></h1>
+                    <h1 id="quote-page__quote-text"></h1>
+                </div>
+            </div>
+        </section>
+        <script src="../JavaScript/quote-page-animation.js"></script>
+        <script src="../JavaScript/quote.js"></script>
+        <section id="source-material-page">
+            <h1 class="introduction-page__re-zero">Jeśli spodobał Ci się Mushoku Tensei to polecam zapoznać się z Re Zero!</h1>
+        </section>
+        <footer>
+            <h1 class="footer-text">Wykonał Stanisław Sagan</h1>
+            <h1 class="footer-date">09.12.2022</h1>
+        </footer>
+    </body>
+</html>
