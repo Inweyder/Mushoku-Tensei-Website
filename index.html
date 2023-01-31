@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mushoku Tensei</title>
+        <link rel="icon" href="./Public/foto/icon.png">
+        <link rel="stylesheet" href="./Public/dist/main.css">
+        <script src="/Public/JavaScript/pageNotFound.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="header-logo"><a href="index.html">MUSHOKU TENSEI</a></h1>
+            <div class="header-menu">
+                <ol >
+                    <li><a class="header-menu__btn" onclick="pageNotFound()" href="#">Uniwersum</a></li>
+                    <li><a class="header-menu__btn" href="./Public/Side-Pages/postacie.html">Postacie</a></li>
+                    <li><a class="header-menu__btn" onclick="pageNotFound()"href="#">Light Novel</a></li>
+                    <li><a class="header-menu__btn" onclick="pageNotFound()" href="#">Odcinki Online</a></li>
+                    <script src="./Public/JavaScript/pageNotFound.js"></script>
+                </ol>
+            </div>
+        </header>
+        <section id="title-screen">
+            <h1 class="title-screen__title">Mushoku Tensei</h1>
+            <p>Wkrocz do fantastycznego świata Mushoku Tensei już teraz!</p>
+            <a href="#introduction-page">Czytaj więcej</a>
+        </section>
+        <section id="introduction-page">
+            <div class="introduction-page__">
+                <div class="introduction-page__line"></div>
+                <h1>Możesz poznać tutaj wszelkie tajniki tego świata</h1>
+                <p>Świat Mushoku Tensei jest ogromny dlatego poukładaliśmy wszelkie informacje o nim w trzy kategorie byś mógł znaleźć szybko jak najwięcej informacji</p>
+                <ol class="introduction-page__list">
+                    <li class="introduction-page__btn"><a onclick="pageNotFound()" href="#">Poznaj Uniwersum</a></li>
+                    <li class="introduction-page__btn"><a href="./Public/Side-Pages/postacie.html">Poznaj Postacie</a></li>
+                </ol>
+            </div>
+        </section>
+        <script src="./Public/JavaScript/introduction-page-animation.js"></script>
+        <section id="source-material-page">
+            <div class="source-material-page__box">
+                <div class="source-material-page__line"></div>
+                <h1>Możesz poznać tutaj wszelkie tajniki tego świata</h1>
+                <p>Świat Mushoku Tensei jest ogromny dlatego poukładaliśmy wszelkie informacje o nim w trzy kategorie byś mógł znaleźć szybko jak najwięcej informacji</p>
+                <ol class="source-material-page__list">
+                    <li class="source-material-page__btn"><a onclick="pageNotFound()" href="#">Odcinki Online</a></li>
+                    <li class="source-material-page__btn"><a href="#">Zakup Novelkę</a></li>
+                </ol>
+            </div>
+        </section>
+        <script src="./Public/JavaScript/source-material-page-animation.js"></script>
+        <footer>
+            <h1 class="footer-text">Wykonał Stanisław Sagan</h1>
+            <h1 class="footer-date">09.12.2022</h1>
+        </footer>
+        <div class="intro-animation">
+            <div class="intro-animation__text">
+                <h1 class="hide">
+                    <span class="text">Mushoku Tensei</span>
+                </h1>
+                <br>
+                <h1 class="hide">
+                    <span class="text">Najlepszy Isekai Dekady</span>
+                </h1>
+            </div>
+        </div>
+        <div class="slider"></div>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" 
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+        crossorigin="anonymous">
+    </script>
+    <script src="./Public/JavaScript/intro-animation.js"></script>
+    </body>
+</html>
